@@ -48,6 +48,10 @@ public class DemoController extends FXMLController {
 		isRunningProperty.set(true);
 		frameDurationProperty.set(10L);
 		
+		// resizable display
+		canvas.getWidth().bind(VBox.getWidth());
+		canvas.getHeight().bind(VBox.getHeight());
+		
 		displayer = new TorusToCanvasDisplayer(canvas, model);
 		
 		setFillFactorSlider(fillFactor);
