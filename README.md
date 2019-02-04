@@ -6,6 +6,10 @@ The author created this project to practice concepts of clean and structured cod
 
 ## Getting Started
 
-TODO: How to import the project into Eclipse
+GitHub Desktop is a useful tool to import this project into your local Eclipse workspace.
 
-TODO: add more clues from https://gist.githubusercontent.com/PurpleBooth/109311bb0361f32d87a2/raw/8254b53ab8dcb18afc64287aaddd9e5b6059f880/README-Template.md
+On GitHub, access 'code' -> 'Clone or download' and copy the url.
+
+On GitHub Desktop, choose 'current repository' -> 'add' -> 'clone' -> 'url' and insert the url of this repository and confirm. The project will now be donwloaded to your local file system.
+
+In eclipse, create an empty workspace and choose 'file' -> 'import' -> 'Maven' -> 'Existsing Maven Projects'. Insert the path file of the local repository (eclipse should now find the 'pom.xml' automatically) and confirm.
