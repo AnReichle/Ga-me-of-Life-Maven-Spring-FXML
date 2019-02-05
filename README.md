@@ -16,6 +16,8 @@ In eclipse, create an empty workspace and choose 'file' -> 'import' -> 'Maven' -
 
 ## Running the tests
 
+## How to use
+
 ## Built with
 
 * Maven - Dependecy Management und Building
