@@ -1,4 +1,4 @@
-# Game of Life Maven Spring FXML
+# Game of Life
 
 This application displays an interactive animation of Conway's Game of Life, where opposite sides of the board are glued together (periodic boundary conditions). Features include randomization of the board's configuration, variable frame rate and manual iteration of the board with more in the planing.
 
