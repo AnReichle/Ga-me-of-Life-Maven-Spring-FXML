@@ -38,6 +38,16 @@ public class TorusToCanvasDisplayer {
 		
 		canvasWidth = canvas.getWidth();
 		canvasHeight = canvas.getHeight();
+		
+		// resizable canvas
+		canvas.widthProperty().addListener( (o, oldVal, newVal) -> {
+			canvasWidth = newVal.doubleValue();
+			paint();
+		});
+		canvas.heightProperty().addListener( (o, oldVal, newVal) -> {
+			canvasHeight = newVal.doubleValue();
+			paint();
+		});
 	}
 	
 	/**
