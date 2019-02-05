@@ -13,3 +13,11 @@ On GitHub, access 'code' -> 'Clone or download' and copy the url.
 On GitHub Desktop, choose 'current repository' -> 'add' -> 'clone' -> 'url' and insert the url of this repository and confirm. The project will now be donwloaded to your local file system.
 
 In eclipse, create an empty workspace and choose 'file' -> 'import' -> 'Maven' -> 'Existsing Maven Projects'. Insert the path file of the local repository (eclipse should now find the 'pom.xml' automatically) and confirm.
+
+## Running the tests
+
+## Built with
+
+* Maven - Dependecy Management und Building
+* JavaFX - the GUI framework used
+* Spring - Dependency Injection
